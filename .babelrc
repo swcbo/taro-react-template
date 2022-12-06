@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "taro",
+      {
+        "framework": "react",
+        "ts": true
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "taro-hooks",
+        "camel2DashComponentName": false
+      },
+      "taro-hooks"
+    ]
+  ]
+}
